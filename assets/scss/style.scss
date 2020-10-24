@@ -1,14 +1,3 @@
-@import "vars";
-@import "header";
-@import "banner";
-@import "about";
-@import "projects";
-@import "services";
-@import "team";
-@import "buttons";
-@import "modifiers";
-@import "default";
-
 * {
     padding: 0;
     margin: 0;
@@ -20,6 +9,16 @@ body {
     font-size: 15px;
     overflow-x: hidden;
 }
+@import "vars";
+@import "header";
+@import "banner";
+@import "about";
+@import "projects";
+@import "services";
+@import "team";
+@import "buttons";
+@import "modifiers";
+@import "default";
 
 .section {
     @extend %structure-section;
@@ -35,5 +34,3 @@ body {
 .section__body {
     @extend %structure-body;
 }
-
-
