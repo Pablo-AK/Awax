@@ -2,6 +2,7 @@
 @import "default";
 @import "buttons";
 @import "modifiers";
+@import "banner";
 
 * {
     padding: 0;
@@ -14,7 +15,6 @@ body {
     font-size: 15px;
     overflow-x: hidden;
 }
-@import "banner";
 
 .section {
     @extend %structure-section;
