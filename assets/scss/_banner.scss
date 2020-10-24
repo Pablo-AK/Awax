@@ -1,6 +1,6 @@
 
 .banner {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: var(--bg-img);
     background-position: bottom;
     background-size: cover;
     height: calc(100vh - 100px);
