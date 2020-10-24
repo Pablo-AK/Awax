@@ -2,6 +2,7 @@
 @import "default";
 @import "buttons";
 @import "modifiers";
+@import "header";
 @import "banner";
 
 * {
@@ -30,7 +31,6 @@ body {
 .section__body {
     @extend %structure-body;
 }
-@import "header";
 @import "about";
 @import "projects";
 @import "services";
