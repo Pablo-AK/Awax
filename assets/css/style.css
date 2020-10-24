@@ -263,7 +263,7 @@ body {
 }
 
 .banner--bg-img {
-  background-image: url(/assets/images/bg.jpg);
+  background-image: url(assets/images/bg.jpg);
   background-position: bottom;
   background-size: cover;
 }
