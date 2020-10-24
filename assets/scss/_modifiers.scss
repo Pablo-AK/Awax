@@ -1,0 +1,16 @@
+.bg--light {
+    background-color: var(--bg-gray);
+    color: var(--color-black);
+}
+.bg--dark {
+    background-color: var(--bg-black);
+    color: var(--color-white);
+}
+
+.menu__link--active {
+    @extend %structure-active;
+}
+
+.projects__filters__item--active {
+    @extend %structure-active;
+}

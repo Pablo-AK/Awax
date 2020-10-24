@@ -1,0 +1,39 @@
+@import "vars";
+@import "header";
+@import "banner";
+@import "about";
+@import "projects";
+@import "services";
+@import "team";
+@import "buttons";
+@import "modifiers";
+@import "default";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+.section {
+    @extend %structure-section;
+}
+
+.section__title {
+    @extend %structure-title;
+}
+
+.section__desc {
+    @extend %structure-desc;
+}
+.section__body {
+    @extend %structure-body;
+}
+
+

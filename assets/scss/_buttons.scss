@@ -1,0 +1,7 @@
+.banner__slide__area__button {
+    @extend %structure-btn-light;
+    margin-top: 50px;
+}
+.about__left__btn {
+    @extend %structure-btn-dark;
+}
