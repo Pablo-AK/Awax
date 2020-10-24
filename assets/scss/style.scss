@@ -3,17 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import "modifiers";
-@import "default"; 
-@import "buttons";
 
 body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 15px;
     overflow-x: hidden;
 }
-@import "header";
-@import "banner";
 
 .section {
     @extend %structure-section;
@@ -29,6 +24,11 @@ body {
 .section__body {
     @extend %structure-body;
 }
+@import "default"; 
+@import "buttons";
+@import "modifiers";
+@import "header";
+@import "banner";
 @import "about";
 @import "projects";
 @import "services";
