@@ -276,7 +276,7 @@ body {
   border-bottom: 5px solid var(--color-brown);
 }
 
-.banner--bg-mg {
+.banner--bg-img {
   background-image: url(/assets/images/bg.jpg);
   background-position: bottom;
   background-size: cover;
