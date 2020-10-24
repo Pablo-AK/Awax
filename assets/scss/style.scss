@@ -3,6 +3,8 @@
 @import "buttons";
 @import "modifiers";
 
+@import "header";
+@import "banner";
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-@import "header";
 .section {
     @extend %structure-section;
 }
@@ -30,7 +31,6 @@ body {
 .section__body {
     @extend %structure-body;
 }
-@import "banner";
 @import "about";
 @import "projects";
 @import "services";
