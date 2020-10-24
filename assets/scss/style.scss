@@ -17,6 +17,10 @@ body {
     overflow-x: hidden;
 }
 
+@import "about";
+@import "projects";
+@import "services";
+@import "team";
 .section {
     @extend %structure-section;
 }
@@ -31,7 +35,3 @@ body {
 .section__body {
     @extend %structure-body;
 }
-@import "about";
-@import "projects";
-@import "services";
-@import "team";
