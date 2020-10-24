@@ -18,3 +18,9 @@
 .projects__filters__item--active {
     @extend %structure-active;
 }
+
+.banner--bg-mg {
+    background-image: url(/assets/images/bg.jpg); 
+    background-position: bottom;
+    background-size: cover;
+}

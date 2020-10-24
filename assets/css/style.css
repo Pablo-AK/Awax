@@ -72,9 +72,6 @@ body {
 }
 
 .banner {
-  background-image: url(/assets/images/bg.jpg);
-  background-position: bottom;
-  background-size: cover;
   height: calc(100vh - 100px);
   overflow: hidden;
 }
@@ -277,4 +274,10 @@ body {
 
 .projects__filters__item--active, .menu__link--active {
   border-bottom: 5px solid var(--color-brown);
+}
+
+.banner--bg-mg {
+  background-image: url(/assets/images/bg.jpg);
+  background-position: bottom;
+  background-size: cover;
 }
