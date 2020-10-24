@@ -9,6 +9,9 @@ body {
     font-size: 15px;
     overflow-x: hidden;
 }
+@import "default";
+@import "buttons";
+@import "modifiers";
 @import "header";
 @import "banner";
 
@@ -30,6 +33,3 @@ body {
 @import "projects";
 @import "services";
 @import "team";
-@import "default";
-@import "buttons";
-@import "modifiers";

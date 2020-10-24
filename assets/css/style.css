@@ -10,6 +10,64 @@ body {
   overflow-x: hidden;
 }
 
+.about__left__btn, .banner__slide__area__button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-size: 13px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--bg-btn);
+  color: var(--color-white);
+}
+
+.banner__slide__area__button {
+  background-color: var(--bg-brown);
+  color: var(--color-white);
+}
+
+.section {
+  padding: 30px 0px;
+}
+
+.services__body__service__title, .section__title, .services__body__service__desc, .section__desc {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.services__body__service__desc, .section__desc {
+  font-size: 15px;
+  color: var(--color-desc);
+}
+
+.section__body {
+  max-width: 1140px;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.projects__filters__item--active, .menu__link--active {
+  border-bottom: 5px solid var(--color-brown);
+}
+
+.banner__slide__area__button {
+  margin-top: 50px;
+}
+
+.bg--light {
+  background-color: var(--bg-gray);
+  color: var(--color-black);
+}
+
+.bg--dark {
+  background-color: var(--bg-black);
+  color: var(--color-white);
+}
+
 .header {
   height: 100px;
   background-color: var(--bg-black);
@@ -204,62 +262,4 @@ body {
   font-size: 13px;
   text-transform: initial;
   line-height: 20px;
-}
-
-.about__left__btn, .banner__slide__area__button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 50px;
-  font-size: 13px;
-  border-radius: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: var(--bg-btn);
-  color: var(--color-white);
-}
-
-.banner__slide__area__button {
-  background-color: var(--bg-brown);
-  color: var(--color-white);
-}
-
-.section {
-  padding: 30px 0px;
-}
-
-.section__desc, .services__body__service__desc, .section__title, .services__body__service__title {
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.section__desc, .services__body__service__desc {
-  font-size: 15px;
-  color: var(--color-desc);
-}
-
-.section__body {
-  max-width: 1140px;
-  margin: auto;
-  padding: 50px 0px;
-}
-
-.projects__filters__item--active, .menu__link--active {
-  border-bottom: 5px solid var(--color-brown);
-}
-
-.banner__slide__area__button {
-  margin-top: 50px;
-}
-
-.bg--light {
-  background-color: var(--bg-gray);
-  color: var(--color-black);
-}
-
-.bg--dark {
-  background-color: var(--bg-black);
-  color: var(--color-white);
 }
