@@ -14,6 +14,7 @@ body {
     font-size: 15px;
     overflow-x: hidden;
 }
+@import "banner";
 
 .section {
     @extend %structure-section;
@@ -30,7 +31,6 @@ body {
     @extend %structure-body;
 }
 @import "header";
-@import "banner";
 @import "about";
 @import "projects";
 @import "services";
