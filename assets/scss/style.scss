@@ -2,8 +2,6 @@
 @import "default";
 @import "buttons";
 @import "modifiers";
-@import "header";
-@import "banner";
 
 * {
     padding: 0;
@@ -17,6 +15,8 @@ body {
     overflow-x: hidden;
 }
 
+@import "header";
+@import "banner";
 @import "about";
 @import "projects";
 @import "services";
