@@ -8,14 +8,12 @@
     font-weight: bold;
     background-color: var(--bg-btn);
     color: var(--color-white);
-
 }
 %structure-btn-light {
     @extend %structure-btn-dark;
     background-color: var(--bg-brown);
     color: var(--color-white);
 }
-
 
 .banner__slide__area__button {
     @extend %structure-btn-light;
