@@ -10,6 +10,31 @@ body {
     overflow-x: hidden;
 }
 
+
+%structure-section {
+    padding: 30px 0px;
+}
+
+%structure-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+%structure-desc {
+    @extend %structure-title;
+    font-size: 15px;
+    color: var(--color-desc);
+}
+
+%structure-body {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
 .section {
     @extend %structure-section;
 }
@@ -24,12 +49,13 @@ body {
 .section__body {
     @extend %structure-body;
 }
-@import "default"; 
-@import "buttons";
-@import "modifiers";
 @import "header";
 @import "banner";
 @import "about";
 @import "projects";
 @import "services";
 @import "team";
+@import "buttons";
+@import "modifiers";
+@import "vars"; 
+

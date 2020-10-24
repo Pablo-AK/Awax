@@ -7,6 +7,10 @@
     color: var(--color-white);
 }
 
+%structure-active {
+    border-bottom: 5px solid var(--color-brown);
+}
+
 .menu__link--active {
     @extend %structure-active;
 }
