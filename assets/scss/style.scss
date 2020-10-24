@@ -16,7 +16,6 @@ body {
 }
 
 @import "header";
-@import "banner";
 .section {
     @extend %structure-section;
 }
@@ -31,6 +30,7 @@ body {
 .section__body {
     @extend %structure-body;
 }
+@import "banner";
 @import "about";
 @import "projects";
 @import "services";
