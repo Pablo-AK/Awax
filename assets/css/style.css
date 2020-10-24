@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  overflow-x: hidden;
+.bg--light {
+  background-color: var(--bg-gray);
+  color: var(--color-black);
+}
+
+.bg--dark {
+  background-color: var(--bg-black);
+  color: var(--color-white);
 }
 
 .about__left__btn, .banner__slide__area__button {
@@ -50,7 +54,7 @@ body {
   padding: 50px 0px;
 }
 
-.projects__filters__item--active, .menu__link--active {
+.menu__link--active, .projects__filters__item--active {
   border-bottom: 5px solid var(--color-brown);
 }
 
@@ -58,14 +62,10 @@ body {
   margin-top: 50px;
 }
 
-.bg--light {
-  background-color: var(--bg-gray);
-  color: var(--color-black);
-}
-
-.bg--dark {
-  background-color: var(--bg-black);
-  color: var(--color-white);
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
 }
 
 .header {

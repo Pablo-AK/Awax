@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+@import "modifiers";
+@import "default"; 
+@import "buttons";
 
 body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -30,6 +33,3 @@ body {
 @import "projects";
 @import "services";
 @import "team";
-@import "modifiers";
-@import "default"; 
-@import "buttons";
