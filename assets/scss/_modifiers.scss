@@ -1,3 +1,8 @@
+.banner--bg-img {
+    background-image: url(/assets/images/bg.jpg); 
+    background-position: bottom;
+    background-size: cover;
+}
 .bg--light {
     background-color: var(--bg-gray);
     color: var(--color-black);
@@ -19,8 +24,3 @@
     @extend %structure-active;
 }
 
-.banner--bg-img {
-    background-image: url(/assets/images/bg.jpg); 
-    background-position: bottom;
-    background-size: cover;
-}

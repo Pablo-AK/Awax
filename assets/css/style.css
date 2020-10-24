@@ -262,6 +262,12 @@ body {
   line-height: 20px;
 }
 
+.banner--bg-img {
+  background-image: url(/assets/images/bg.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
 .bg--light {
   background-color: var(--bg-gray);
   color: var(--color-black);
@@ -274,10 +280,4 @@ body {
 
 .projects__filters__item--active, .menu__link--active {
   border-bottom: 5px solid var(--color-brown);
-}
-
-.banner--bg-img {
-  background-image: url(/assets/images/bg.jpg);
-  background-position: bottom;
-  background-size: cover;
 }
