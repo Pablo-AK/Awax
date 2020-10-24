@@ -2,9 +2,7 @@
 @import "default";
 @import "buttons";
 @import "modifiers";
-
 @import "header";
-@import "banner";
 * {
     padding: 0;
     margin: 0;
@@ -35,3 +33,5 @@ body {
 @import "projects";
 @import "services";
 @import "team";
+
+@import "banner";
