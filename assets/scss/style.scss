@@ -14,12 +14,6 @@ body {
     font-size: 15px;
     overflow-x: hidden;
 }
-@import "header";
-@import "banner";
-@import "about";
-@import "projects";
-@import "services";
-@import "team";
 
 .section {
     @extend %structure-section;
@@ -35,3 +29,9 @@ body {
 .section__body {
     @extend %structure-body;
 }
+@import "header";
+@import "banner";
+@import "about";
+@import "projects";
+@import "services";
+@import "team";
